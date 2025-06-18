@@ -1,12 +1,14 @@
 # AIDEX
 
-**AIDEX** (AI and Data Examples) is a collection of compact, practical Python and MATLAB programs that illustrate foundational and advanced concepts in data science, machine learning, and artificial intelligence. Each example is self-contained and visual, designed to be useful for education, experimentation, and demonstration.
+**AIDEX** (AI and Data Examples) is a collection of compact, practical Python and MATLAB (compatible with the open-source system called Octave) programs that illustrate foundational and advanced concepts in data science, machine learning, and artificial intelligence. Each example is self-contained and visual, designed to be useful for education, experimentation, and demonstration. MATLAB/Octave is used when it is important to look at equations; for all else, examples are in Python.  
 
 ---
 
 ## 📁 Contents
 
 ### 🔢 PCA and Dimensionality Reduction
+- **PCA.m**
+  Implements PCA step-by-step in MATLAB without libraries. Shows 3D data, mean-centering, scatter matrix, eigendecomposition, projection onto principal components, and a Pareto plot of explained variance.
 - **PCA1.py**  
   Demonstrates PCA on synthetic 3D data with visualization of principal axes in 3D space.
 - **PCA2.py**  
