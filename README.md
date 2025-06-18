@@ -8,6 +8,15 @@ The file [EnvSetup_VisualStudioCode.pdf](EnvSetup_VisualStudioCode.pdf) guides t
 
 ---
 
+## 🧭 Purpose
+
+AIDEX is designed for:
+- Instructors needing concise, visual examples for lectures or labs.
+- Students exploring key algorithms interactively.
+- Practitioners prototyping educational tools or demonstrations.
+
+---
+
 ## 📁 Contents
 
 ### 🧮 Calculus - Interpretation of Derivatives and Minimization
@@ -34,14 +43,6 @@ The file [EnvSetup_VisualStudioCode.pdf](EnvSetup_VisualStudioCode.pdf) guides t
 ### 📈 Adaptive Linear Mapping
 - [Example_D.py](Example_D.py): High-dimensional matrix learning with sliders to adjust input/output dimensions and iteration count.
 
----
-
-## 🧭 Purpose
-
-AIDEX is designed for:
-- Instructors needing concise, visual examples for lectures or labs.
-- Students exploring key algorithms interactively.
-- Practitioners prototyping educational tools or demonstrations.
 
 ---
 
