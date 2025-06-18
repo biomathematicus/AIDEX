@@ -1,3 +1,13 @@
+"""
+Example_A1.py
+Animated sigmoid-like function with tangent and derivative speedometer 
+using polar coordinates.
+
+By Juan B. Gutiérrez, Professor of Mathematics
+University of Texas at San Antonio.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+"""
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np

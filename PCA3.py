@@ -1,3 +1,13 @@
+"""
+PCA3.py
+PCA demonstration using a synthetic spherical mesh with axis alignment 
+visualization.
+
+By Juan B. Gutiérrez, Professor of Mathematics 
+University of Texas at San Antonio.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+"""
 import open3d as o3d
 import numpy as np
 from sklearn.decomposition import PCA

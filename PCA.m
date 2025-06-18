@@ -1,5 +1,17 @@
-% PCA - Create two random sets
+%{
+PCA.m
+Step-by-step implementation of Principal Component Analysis (PCA) on synthetic 
+3D data. Includes 3D plotting of input data, mean-centering, scatter matrix 
+computation, eigendecomposition, projection onto principal components, and a 
+Pareto plot of explained variance.
 
+By Juan B. Gutiérrez, Professor of Mathematics
+University of Texas at San Antonio.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+%}
+
+% Create two random sets
 M1 = rand(10,3)+2;
 M2 = -rand(10,3)+2;
 M = [M1; M2]
@@ -9,12 +21,15 @@ hold on
 plot3(M(11:20,1),M(11:20,2),M(11:20,3), 'b*')
 grid on
 
+% The following three lines of code are the implementation of PCA
+
 % Subtract the mean
 N = M - mean(M);
 % Compute scatter (~covariance)
 S = N'*N;
 % Compute eigenvectors & eigenvalues
 [V,D] = eig(S);
+
 
 figure(2); hold off
 plot(M1*V(:,3), M1*V(:,2), 'r*')

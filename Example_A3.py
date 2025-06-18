@@ -1,3 +1,13 @@
+"""
+Example_A3.py
+Composite display: sigmoid function, derivative speedometer, and derivative 
+plot with interactive slider.
+
+By Juan B. Gutiérrez, Professor of Mathematics 
+University of Texas at San Antonio.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+"""
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
 import numpy as np

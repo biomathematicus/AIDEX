@@ -1,3 +1,13 @@
+"""
+PCA1.py
+PCA on synthetic 3D data with visualization of principal components as 
+3D vectors.
+
+By Juan B. Gutiérrez, Professor of Mathematics 
+University of Texas at San Antonio.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA

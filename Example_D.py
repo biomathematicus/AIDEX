@@ -1,3 +1,13 @@
+"""
+Example_D.py
+High-dimensional matrix learning with real-time visualizations and sliders for 
+dimension and iteration control.
+
+By Juan B. Gutiérrez, Professor of Mathematics
+University of Texas at San Antonio.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation

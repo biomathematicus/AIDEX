@@ -1,3 +1,13 @@
+"""
+Example2A.py
+Interactive version of linear adaptation visualization with iteration slider 
+and matrix updates.
+
+By Juan B. Gutiérrez, Professor of Mathematics
+University of Texas at San Antonio.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation

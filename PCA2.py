@@ -1,8 +1,18 @@
+"""
+PCA2.py
+PCA applied to a 3D bunny mesh using Open3D; compares original and 
+PCA-aligned point clouds.
+
+By Juan B. Gutiérrez, Professor of Mathematics
+University of Texas at San Antonio.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+"""
 import open3d as o3d
 import numpy as np
 from sklearn.decomposition import PCA
 
-# Load 3D bunny model as a point cloud (a substitute for a teapot)
+# Load 3D bunny model as a point cloud 
 mesh = o3d.io.read_triangle_mesh(o3d.data.BunnyMesh().path)
 mesh.compute_vertex_normals()
 points = np.asarray(mesh.vertices)

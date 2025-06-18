@@ -1,3 +1,13 @@
+"""
+Example2.py
+Animated gradient descent adaptation of a linear map with bar plots and error 
+tracking over time.
+
+By Juan B. Gutiérrez, Professor of Mathematics 
+University of Texas at San Antonio.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation

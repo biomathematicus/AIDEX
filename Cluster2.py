@@ -1,3 +1,13 @@
+"""
+Cluster2.py
+Interactive K-Means clustering with a slider for number of clusters and 
+embedded explanation.
+
+By Juan B. Gutiérrez, Professor of Mathematics 
+University of Texas at San Antonio.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
