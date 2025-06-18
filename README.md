@@ -1,10 +1,20 @@
 # AIDEX
 
-**AIDEX** (AI and Data Examples) is a collection of compact, practical Python and MATLAB (compatible with the open-source system called Octave) programs that illustrate foundational and advanced concepts in data science, machine learning, and artificial intelligence. Each example is self-contained and visual, designed to be useful for education, experimentation, and demonstration. MATLAB/Octave is used when it is important to look at equations; for all else, examples are in Python.  
+**AIDEX** (AI and Data EXamples) is a collection of compact, practical [Python](https://www.python.org/) and [MATLAB](https://www.mathworks.com/) (compatible with open-source [Octave](https://www.octave.org/)) programs.  Examples are developed in MATLAB/[Octave](https://www.octave.org/) when it is important to look at equations; for all else, examples are in Python.  
+
+Examples in AIDEX illustrate foundational and advanced concepts in mathematics, data science, machine learning, and artificial intelligence. Each example is self-contained and visual, designed to be useful for education, experimentation, and demonstration. 
 
 ---
 
 ## 📁 Contents
+
+### 🧮 Calculus - Interpretation of Derivatives and Minimization
+- **Example_A1.py**  
+  Animated sigmoid-like function with tangent and derivative speedometer.
+- **Example_A2.py**  
+  Slider-controlled visualization of function and its derivative, including tangents.
+- **Example_A3.py**  
+  Combines function, derivative, and polar speedometer in one dashboard.
 
 ### 🔢 PCA and Dimensionality Reduction
 - **PCA.m**
@@ -23,14 +33,6 @@
   K-Means clustering with an adjustable number of clusters and real-time plot updates.
 - **Cluster3.py**  
   Uses silhouette scores to determine the optimal number of clusters dynamically based on overlap, with a standard deviation slider.
-
-### 🧮 Calculus - Interpretation of Derivatives and Minimization
-- **Example_A1.py**  
-  Animated sigmoid-like function with tangent and derivative speedometer.
-- **Example_A2.py**  
-  Slider-controlled visualization of function and its derivative, including tangents.
-- **Example_A3.py**  
-  Combines function, derivative, and polar speedometer in one dashboard.
 
 ### 🧠 Gradient Descent and Learning
 - **Example_B.py**  
