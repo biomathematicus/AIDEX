@@ -20,6 +20,7 @@ The file [EnvSetup_VisualStudioCode.pdf](EnvSetup_VisualStudioCode.pdf) guides t
 - [PCA1.py](PCA1.py): Demonstrates PCA on synthetic 3D data with visualization of principal axes in 3D space.
 - [PCA2.py](PCA2.py): Applies PCA to a 3D bunny mesh using Open3D. Compares original and PCA-aligned point clouds.
 - [PCA3.py](PCA3.py): Similar to PCA2 but uses a synthetic spherical object to visualize PCA rotation effects.
+- [FisherLinearDiscriminant.m](FisherLinearDiscriminant.m): Compares the direction of greatest variation vs. the direction of greatest discrimination. 
 
 ### 📊 Clustering
 - [Cluster1.py](Cluster1.py): Distance-based clustering with an interactive threshold slider and explanation panel.
